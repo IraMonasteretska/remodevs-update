@@ -1,0 +1,82 @@
+span.wpcf7-list-item {
+    margin: 0;
+}
+
+.wp-block-image img {
+    height: auto;
+}
+
+span.wpcf7-spinner {
+    position: absolute;
+    margin-top: 0.5rem;
+}
+
+span.wpcf7-not-valid-tip {
+    font-size: 0.8em;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+    font-size: 0.8rem;
+    text-align: center;
+    border-color: rgb(27 109 255 / 40%);
+}
+
+
+.grecaptcha-badge {
+    right: -300px!important;
+}
+
+.jq-file__browse {
+    font-size: 0;
+    color: transparent;
+}
+
+.without-header-footer .main {
+  padding-top: 0;
+}
+
+.without-header-footer div#tidio-chat {
+  display: none;
+}
+
+.welcomesect .welcomesect__text .descr p {
+    animation: none!important;
+    overflow: auto;
+}
+.main{
+	    overflow: initial;
+}
+
+.categories__head {
+    margin-bottom: 0;
+}
+
+.categories {
+    padding: 65px 0 0px;
+}
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+    background-image: url(../img/plyr_btn_play.svg);
+    background-position: 55% 50%;
+    background-repeat: no-repeat;
+}
+
+
+.postbox:hover .postbox__descr,
+.formsection .formsection__form .checkfield label span:after {
+    background-color: #0037FB;
+}
+
+a:hover,
+.postbox .postbox__descr .readmorebl,
+.resultnox .resultnox__right .blue-btn,
+.continfowrapper .title,
+.contactssect__left h1,
+.welcscreen-black h1 {
+    color: #0037FB;
+}
+
+.postbox .postbox__descr,
+.resultnox {
+    border: 1.5px solid #0037FB;
+}
