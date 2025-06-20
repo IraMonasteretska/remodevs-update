@@ -1,0 +1,22 @@
+<svg width="613" height="217" viewBox="0 0 613 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="line" d="M327.768 37.1188C320.011 26.2114 303.917 3.81495 301.59 1.48804H388.849C419.147 3.9119 479.744 27.9566 479.744 104.745C479.744 181.533 419.147 210.91 388.849 216H304.499L336.494 178.915H388.849C407.513 174.067 444.84 153.173 444.84 108.38C444.84 63.5874 407.513 42.2089 388.849 37.1188H327.768Z" stroke="#2B7CFF" stroke-opacity="0.38" stroke-width="1.5"/>
+<path class="line" d="M152.522 37.1188L129.98 1.48804H239.054C257.718 8.03247 295.191 31.1561 295.773 71.2953C296.354 111.434 267.898 133.589 253.597 139.648L295.046 216H253.597L191.062 108.38H235.419C243.66 105.472 260.142 94.4189 260.142 73.4768C260.142 52.5346 243.66 40.5122 235.419 37.1188H152.522Z" stroke="#2B7CFF" stroke-opacity="0.38" stroke-width="1.5"/>
+<path class="line" d="M522.646 88.7471V57.4792L612.814 112.016L522.646 167.28V135.285L562.64 111.289L522.646 88.7471Z" stroke="#2B7CFF" stroke-opacity="0.38" stroke-width="1.5"/>
+<path class="line" d="M92.168 136.739L92.168 168.007L2.00027 113.47L92.168 58.2063L92.168 90.2013L52.1742 114.198L92.168 136.739Z" stroke="#2B7CFF" stroke-opacity="0.38" stroke-width="1.5"/>
+
+
+    <style>
+      .line {
+            animation: dash 9s linear alternate infinite;
+            stroke-dasharray: 1300;
+            stroke-dashoffset: 1300;
+        }
+
+        @keyframes dash {
+           to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+
+</svg>
