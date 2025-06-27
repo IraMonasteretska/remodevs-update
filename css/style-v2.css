@@ -478,10 +478,6 @@
     margin-bottom: 90px;
 }
 
-.updcase-row:last-child {
-    margin-bottom: 0;
-}
-
 .updcase__imgwrap img {
     width: 100%;
     border-radius: 10px;
@@ -560,6 +556,12 @@
 
 .updcase-row:nth-child(even) .row {
     flex-direction: row-reverse;
+}
+
+.paginationright {
+    a {
+        text-decoration: none;
+    }
 }
 
 @media(max-width:1399.8px) {
